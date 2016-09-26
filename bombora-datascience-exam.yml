@@ -1,0 +1,44 @@
+# A conda env supporting Bombora Data Science team interviews.
+name: bombora-datascience-exam
+# channels:
+#   - pandas
+dependencies:
+  # core dependencies (must be installed)
+  - python>=3.5
+  - pip
+  - psutil
+  - pyyaml
+  # TODO: Update pandas to 0.19 once it is released, in the interim,
+  # because this issue, update to release candidate
+  # https://github.com/pydata/pandas/issues/13098
+  - pandas #=0.19.0rc1
+  - numexpr
+  # development/testing dependencies
+  - coverage
+  - pytest
+  - pytest-cov
+  # analysis dependencies
+  - scikit-learn
+  - seaborn
+  - toolz
+  - bokeh
+  - dask
+  - ipython
+  - jupyter
+  - matplotlib
+  - networkx
+  - pip:
+    # core dependencies
+    - bumpversion
+    - nbstripout
+    # analytics dependencies
+    - patsy
+    - cufflinks
+    - coveralls
+    # documentation dependencies
+    - sphinx  # pip has latest sphinx version
+    - recommonmark
+    - numpydoc
+    - nbsphinx
+    - sphinx_rtd_theme
+    - pytest-ordering
