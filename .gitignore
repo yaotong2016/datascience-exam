@@ -1,0 +1,7 @@
+# Directories
+.ipynb_checkpoints
+*.idea*
+*.vagrant
+
+# OS X
+.DS_Store
