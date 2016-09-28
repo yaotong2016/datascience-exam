@@ -13,7 +13,10 @@
 
 From all of us and Bombora Data Science, we're eager to get to know you! To do so, we'd thought we'd first engage you with a few exercises to demonstrate concepts we're interested and hope you are as well. 
 
-Get comfortable and let's go!
+
+*Note*: We'll be leveraging open tools and public repositories. Ethics and professional aspirations should drive you to work creatively, enthusiastically, and *independently*. Clearly, you should leverage all resources you can, but please, *do not* share this exam or your solutions with anyone else. :)
+
+Thank you so much! Now, get comfortable and let's go!
 
 # Instructions
 
@@ -31,11 +34,26 @@ We're going to leverage typical analysis and development workflows used by our t
 
 ## Details
 
-### 1. Clone this repo a local machine
+### 1. Fork / clone this repo to your GitHub account.
+
+#### Fork
+It's the button above that looks like the one below (you can click either):
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/bomboradata/datascience-exam/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/bomboradata/datascience-exam/network" data-count-api="/repos/bomboradata/datascience-exam#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork bomboradata/datascience-exam on GitHub">Fork</a>
+
+#### Local Clone
 
 On your local machine, with git installed:
 
-    git clone <repo-name-here>
+    git clone git@github.com:<your-gh-username>/datascience-exam.git
+
+#### Checkout `datascience-engineer-intern` branch
+
+Best if you develop against this branch:
+
+	git checkout datascience-engineer-intern
+	
 
 ### 2. Create your copy of `ds-interview-exam` nb
 
@@ -51,7 +69,7 @@ You have two options:
 
 1. **Upload the included `ds-interview-exam` notebook to [try.jupyter.com](try.jupyter.com)** (easy and recommended):
 	- open [try.jupyter.com](try.jupyter.com),
-	- Upload this notebook to [try.jupyter.com](try.jupyter.com)
+	- Upload this notebook to 
 		- click `upload` in upper right corner
    		- select the local notebook file (`data-science-exam.ipynb`)
     - click on notebook to open.
@@ -68,13 +86,12 @@ You have two options:
 
 #### 3.2 Setup Jupyter
 
-**Note**: for those not familiar with Jupyter notebook, 
+**Note**: for those not familiar with Jupyter notebook, please view the *Welcome to ...* intro noteboooks included in file listing. Also, you can review the [Notebook Basics tutorial](http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb).
 
-1. Select a language kernel of your choice (you can choose between Scala, R, Haskell, Python 2 or 3, Julia or even Bash)
+After opening your notebook, you'll need to select a language kernel of your choice, (you can choose between Scala, R, Haskell, Python 2 or 3, Julia or even Bash).
 
-	- from menubar, select * Kernel > Change Kernel > <your language>*
+- from menubar of the opened notebook, select * Kernel > Change Kernel > <your language>*
 
-2. Read t
  
 
 ### 4. Solve TWO problems, one from each section.
@@ -92,16 +109,31 @@ You have two options:
 This is you, shining. Think, Hack, Repeat. Enjoy this part. :)
 
 
-### 5. Commit results and push to a remote repo.
+### 5. Commit results and push to your remote repo.
 
 - add and commit solution notebook.
 - add and commit your resume with filename `mylastname-myfirstname__resume.myformat`
 - push to remote repo
 
-## Finished? 
+### 6. Open Pull Request to submit exam
 
-Thank you for all of your hard work!
+To submit, [please open a PR](https://help.github.com/articles/creating-a-pull-request/) to the `datascience-engineer-intern` branch of the repo.
 
-- open up PR to `datascience-engineer-intern` branch of our repo.
-- Send a notification email to `nhalecky@bombora.com`
-- you'll hear back from us, soon. :)
+
+## Questions?
+
+Open an issue in the GH repo, we provide a button right here, for your convenience. 
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/bomboradata/datascience-exam/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/bomboradata/datascience-exam#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue bomboradata/datascience-exam on GitHub">Issue</a>
+
+
+## Finished, what's next? 
+
+Thank you for all of your hard work and your interest! You'll hear back from us, soon. :)
+
+Go enjoy your day, you deserve it!
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
