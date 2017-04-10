@@ -1,10 +1,10 @@
-# A conda env supporting Bombora Data Science team interviews.
+# A conda env supporting Bombora Data Science application exams!
 name: bombora-datascience-exam
 # channels:
 #   - pandas
 dependencies:
   # core dependencies (must be installed)
-  - python>=3.5
+  - python==3.5.3
   - pip
   - psutil
   - pyyaml
